@@ -1,0 +1,248 @@
+Automaton Simulator, v1.0
+turing {
+	alphabet {abcd*_}
+	state {
+		initial {yes}
+		coord {482 426}
+	}
+	state {
+		coord {652 234}
+	}
+	state {
+		coord {853 233}
+	}
+	state {
+		coord {1060 233}
+	}
+	state {
+		coord {1285 283}
+	}
+	state {
+		coord {641 585}
+	}
+	state {
+		coord {860 591}
+	}
+	state {
+		coord {1071 604}
+	}
+	state {
+		coord {1263 517}
+	}
+	state {
+		final {yes}
+		coord {422 271}
+	}
+	edge 0 1 {
+		transits {a}
+		offset {0.5235987755982988}
+		direction {R}
+		output {c}
+	}
+	edge 1 1 {
+		transits {b}
+		offset {2.356194490192345}
+		direction {R}
+		output {b}
+	}
+	edge 1 2 {
+		transits {_}
+		offset {0.5235987755982988}
+		direction {R}
+		output {_}
+	}
+	edge 2 3 {
+		transits {a}
+		offset {0.5235987755982988}
+		direction {L}
+		output {c}
+	}
+	edge 2 2 {
+		transits {c}
+		offset {1.5519306407732258}
+		direction {R}
+		output {c}
+	}
+	edge 3 3 {
+		transits {c}
+		offset {1.059565614517107}
+		direction {L}
+		output {c}
+	}
+	edge 3 4 {
+		transits {_}
+		offset {0.39864857406446186}
+		direction {L}
+		output {_}
+	}
+	edge 4 4 {
+		transits {b}
+		offset {0.7853981633974483}
+		direction {L}
+		output {b}
+	}
+	edge 4 0 {
+		transits {c}
+		offset {6.477539883823434}
+		direction {R}
+		output {c}
+	}
+	edge 5 5 {
+		transits {b}
+		offset {-1.9566789961929705}
+		direction {R}
+		output {b}
+	}
+	edge 6 6 {
+		transits {d}
+		offset {-1.6762856353199873}
+		direction {R}
+		output {d}
+	}
+	edge 7 7 {
+		transits {d}
+		offset {-1.7126933813990606}
+		direction {L}
+		output {d}
+	}
+	edge 6 6 {
+		transits {c}
+		offset {2.356194490192345}
+		direction {R}
+		output {c}
+	}
+	edge 1 1 {
+		transits {a}
+		offset {-1.1383885512243588}
+		direction {R}
+		output {a}
+	}
+	edge 2 2 {
+		transits {d}
+		offset {-1.849095985800008}
+		direction {R}
+		output {d}
+	}
+	edge 3 3 {
+		transits {d}
+		offset {-1.6391826703854002}
+		direction {L}
+		output {d}
+	}
+	edge 4 4 {
+		transits {a}
+		offset {-1.1139513339488993}
+		direction {L}
+		output {a}
+	}
+	edge 8 8 {
+		transits {a}
+		offset {2.356194490192345}
+		direction {L}
+		output {a}
+	}
+	edge 8 8 {
+		transits {b}
+		offset {-0.8813984537669336}
+		direction {L}
+		output {b}
+	}
+	edge 7 7 {
+		transits {c}
+		offset {1.6384893494888655}
+		direction {L}
+		output {c}
+	}
+	edge 5 5 {
+		transits {a}
+		offset {1.3208177053340742}
+		direction {R}
+		output {a}
+	}
+	edge 0 9 {
+		transits {_}
+		offset {0.5235987755982988}
+		direction {R}
+		output {_}
+	}
+	edge 0 5 {
+		transits {b}
+		offset {-0.4461025079785663}
+		direction {R}
+		output {d}
+	}
+	edge 5 6 {
+		transits {_}
+		offset {-0.669432408912385}
+		direction {R}
+		output {_}
+	}
+	edge 6 7 {
+		transits {b}
+		offset {-0.5027156680422568}
+		direction {L}
+		output {d}
+	}
+	edge 7 8 {
+		transits {_}
+		offset {-1.011419917938065}
+		direction {L}
+		output {_}
+	}
+	edge 8 0 {
+		transits {d}
+		offset {0.16492800186698453}
+		direction {R}
+		output {d}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {525 300}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {531 298}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {531 298}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {531 298}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {527 297}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {528 302}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {1579 533}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {991 124}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {868 306}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {836 436}
+	}
+}

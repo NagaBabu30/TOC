@@ -1,0 +1,99 @@
+Automaton Simulator, v1.0
+turing {
+	alphabet {abcd*_}
+	state {
+		initial {yes}
+		coord {418 418}
+	}
+	state {
+		coord {568 223}
+	}
+	state {
+		coord {846 214}
+	}
+	state {
+		coord {594 577}
+	}
+	state {
+		coord {893 584}
+	}
+	state {
+		final {yes}
+		coord {825 342}
+	}
+	state {
+		coord {1080 384}
+	}
+	edge 0 1 {
+		transits {b}
+		offset {0.5235987755982988}
+		direction {R}
+		output {_}
+	}
+	edge 1 1 {
+		transits {b}
+		offset {-1.2392421649189584}
+		direction {R}
+		output {b}
+	}
+	edge 1 1 {
+		transits {a}
+		offset {1.9862884227357873}
+		direction {R}
+		output {a}
+	}
+	edge 1 2 {
+		transits {_}
+		offset {0.5235987755982988}
+		direction {L}
+		output {_}
+	}
+	edge 2 6 {
+		transits {b}
+		offset {0.5235987755982988}
+		direction {L}
+		output {_}
+	}
+	edge 6 0 {
+		transits {_}
+		offset {6.615463219903274}
+		direction {R}
+		output {_}
+	}
+	edge 3 4 {
+		transits {_}
+		offset {-0.4142417515297099}
+		direction {L}
+		output {_}
+	}
+	edge 6 6 {
+		transits {a}
+		offset {0.9158014712865816}
+		direction {L}
+		output {a}
+	}
+	edge 6 6 {
+		transits {b}
+		offset {-0.6267429012110469}
+		direction {L}
+		output {b}
+	}
+	edge 4 6 {
+		transits {_}
+		offset {-0.6039949147033358}
+		direction {L}
+		output {_}
+	}
+	edge 0 3 {
+		transits {a}
+		offset {-0.5408522823491629}
+		direction {R}
+		output {_}
+	}
+	edge 2 5 {
+		transits {_}
+		offset {0.5235987755982988}
+		direction {R}
+		output {_}
+	}
+}
